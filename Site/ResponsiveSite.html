@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive website</title>
+	<style type="text/css">
+		*
+		{
+			box-sizing: border-box;
+		}
+
+		.row
+		{
+			
+			width: 100%;
+			
+		}
+
+		p
+		{
+			font-family: helvitica;
+			border: 5px solid black;
+			margin-left: auto;
+			margin-right: auto;
+			width: 90%;
+			height: 150px;
+			background-color: rosybrown;
+		}
+
+		@media(min-width:1200px)
+		{
+			.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
+			{
+				float: left;
+				border: 1px solid black;
+			}
+
+			.col-lg-1
+			{
+				width: 8.33%;
+			}
+			
+			.col-lg-2
+			{
+				width: 16.66%;
+			}
+
+			.col-lg-3
+			{
+				width: 25%;
+			}
+
+			.col-lg-4
+			{
+				width: 33.33%;
+			}
+
+
+
+		}
+		@media(min-width:992px) and (max-width:1199px)
+		{
+			.col-mg-1,.col-mg-2,.col-mg-3,.col-mg-4,.col-mg-5,.col-mg-6,.col-mg-7,.col-mg-8,.col-mg-9,.col-mg-10,.col-mg-11,.col-mg-12
+			{
+				float: left;
+				border: 1px solid black;
+			}
+
+			.col-mg-1
+			{
+				width: 8.33%;
+			}
+			
+			.col-mg-2
+			{
+				width: 16.66%;
+			}
+
+			.col-mg-3
+			{
+				width: 25%;
+			}
+
+			.col-mg-4
+			{
+				width: 33.33%;
+			}
+
+			.col-mg-5
+			{
+				width: 41.66%;
+			}
+
+			.col-mg-6
+			{
+				width: 50%;
+			}
+		}
+
+
+
+
+
+
+		
+	</style>
+</head>
+<body>
+<div class="row">
+	<div class="col-lg-3 col-mg-6"><p>Item1</p></div>
+	<div class="col-lg-3 col-mg-6"><p>Item2</p></div>
+	<div class="col-lg-3 col-mg-6"><p>Item3</p></div>
+	<div class="col-lg-3 col-mg-6"><p>Item4</p></div>
+	<div class="col-lg-3 col-mg-6"><p>Item5</p></div>
+	<div class="col-lg-3 col-mg-6"><p>Item6</p></div>
+	<div class="col-lg-3 col-mg-6"><p>Item7</p></div>
+	<div class="col-lg-3 col-mg-6"><p>Item8</p></div>
+</div>
+
+</body>
+</html>
